@@ -13,7 +13,7 @@ void bubbleSort(int arr[], int n) {
 }
 
 int main() {
-    int arr[] = {64, 34, 25, 12, 22, 11};
+    int arr[] = {64, 34};
     int n = sizeof(arr) / sizeof(arr[0]);
     bubbleSort(arr, n);
     printf("The arr is now sorted :  ");
